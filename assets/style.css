@@ -1,0 +1,297 @@
+/* Importação da fonte personalizada */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+/* Reset de margens e paddings para todos os elementos */
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Corpo da página com fundo escuro e texto claro */
+body {
+    background-color: #2B1D3E;
+    color: #D3C9E1;
+    font-size: 16px;
+}
+
+/* Títulos principais (h2) */
+h2 {
+    font-size: 2.5rem;
+    color: #FF6347; /* Vermelho */
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+/* Parágrafos */
+p {
+    color: #FF7F7F; /* Vermelho claro */
+}
+
+/* Estilo da seção de conteúdo principal */
+section {
+    margin: 100px auto;
+    max-width: 1200px;
+}
+
+/* Banner modificado com texto centralizado */
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(105, 58, 152, .3)), url('../images/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    padding-top: 80px;
+    border-bottom: 2px solid #FF4500; /* Vermelho escuro */
+}
+
+/* Container central do conteúdo do banner */
+.banner .banner-content {
+    color: white;
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+/* Título do banner com gradiente */
+.banner h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: transparent;
+    background: -webkit-linear-gradient(#FF4500, #FF6347); /* Gradiente vermelho */
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+/* Descrição no banner */
+.banner p {
+    font-size: 1.5rem;
+    margin: 16px 0 24px;
+}
+
+/* Logo circular com borda de destaque */
+.banner .logo {
+    background-color: rgba(0, 0, 0, .5);
+    height: 280px;
+    width: 280px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 20px;
+    margin-bottom: 24px;
+}
+
+.banner .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Estilo do botão no banner */
+.banner .banner-content button {
+    color: #FF4500; /* Vermelho escuro */
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 18px 36px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-color: transparent;
+    border: 2px solid #FF4500; /* Vermelho escuro */
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito de hover no botão */
+.banner .banner-content button:hover {
+    background-color: #FF4500; /* Vermelho escuro */
+    color: #2B1D3E;
+}
+
+/* Seção de módulos */
+#course-content {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+#course-content .modules-list {
+    margin: 32px 0;
+}
+
+/* Cada módulo */
+#course-content .modules-list .module {
+    color: #D3C9E1;
+    width: 550px;
+    margin: 0 auto 24px;
+    border: 1px solid #FF4500; /* Vermelho escuro */
+    background-color: #3D2D4C;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    transition: background-color 0.3s ease;
+}
+
+#course-content .modules-list .module:hover {
+    background-color: #4E3C6E;
+}
+
+#course-content .modules-list .module span {
+    color: #FF4500; /* Vermelho escuro */
+}
+
+/* Seção de transformação */
+#transform-world {
+    height: 600px;
+    background-size: cover;
+    background-image: url("../images/woman-code.png");
+    background-attachment: fixed;
+    border-top: 2px solid #FF4500; /* Vermelho escuro */
+    border-bottom: 2px solid #FF4500; /* Vermelho escuro */
+    padding: 120px;
+    text-align: center;
+}
+
+#transform-world p {
+    font-weight: 900;
+    font-size: 3rem;
+    text-transform: lowercase;
+    max-width: 350px;
+    text-shadow: 4px 3px #FF4500; /* Vermelho escuro */
+    color: white;
+    margin: 0 auto;
+}
+
+/* Seção de desafios profissionais */
+#professional-challenges {
+    text-align: center;
+    width: 80%;
+    margin: 60px auto;
+}
+
+#professional-challenges img {
+    margin: 40px 0;
+}
+
+/* Rodapé */
+footer {
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(105, 58, 152, .0), rgba(105, 58, 152, .1));
+    border-top: 2px solid #FF4500; /* Vermelho escuro */
+}
+
+footer .dio-logo {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: #FF4500; /* Vermelho escuro */
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #FF6347; /* Vermelho */
+}
+
+/* Media Queries para tornar o layout responsivo */
+
+/* Para telas pequenas (menos que 768px) */
+@media (max-width: 768px) {
+
+    /* Ajusta a altura do banner */
+    .banner {
+        height: 500px;
+        padding-top: 40px;
+    }
+
+    .banner .banner-content {
+        width: 90%;
+    }
+
+    /* Ajusta o tamanho do título do banner */
+    .banner h1 {
+        font-size: 2rem;
+    }
+
+    /* Ajusta o tamanho da descrição */
+    .banner p {
+        font-size: 1.2rem;
+    }
+
+    /* Ajuste para o botão */
+    .banner .banner-content button {
+        padding: 12px 24px;
+        font-size: 1rem;
+    }
+
+    /* Ajusta o conteúdo do módulo */
+    #course-content .modules-list .module {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    #course-content .modules-list .module span {
+        font-size: 1rem;
+    }
+
+    /* Ajusta o tamanho da fonte do texto na seção transform-world */
+    #transform-world p {
+        font-size: 2rem;
+        max-width: 80%;
+    }
+
+    /* Ajusta a largura da imagem na seção profissional */
+    #professional-challenges img {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    /* Ajusta o rodapé */
+    footer {
+        padding: 40px 0;
+    }
+
+    footer .dio-logo {
+        width: 200px;
+    }
+}
+
+/* Para telas ainda menores (menos que 480px) */
+@media (max-width: 480px) {
+
+    /* Ajusta o título do banner */
+    .banner h1 {
+        font-size: 1.5rem;
+    }
+
+    /* Ajusta o tamanho do botão */
+    .banner .banner-content button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    /* Ajusta os módulos */
+    #course-content .modules-list .module {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    /* Ajusta a fonte na seção transform-world */
+    #transform-world p {
+        font-size: 1.5rem;
+        max-width: 90%;
+    }
+
+    /* Ajusta as imagens dos desafios */
+    #professional-challenges img {
+        width: 100%;
+    }
+
+    footer .dio-logo {
+        width: 180px;
+    }
+}
