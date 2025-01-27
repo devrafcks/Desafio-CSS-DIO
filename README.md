@@ -1,4 +1,4 @@
-# Desafio 01: Criando sua Primeira Landing Page com HTML e CSS
+# Desafio 01: Criando Landing Page com HTML e CSS
 
 Este repositório contém o resultado do **Desafio 01** da Trilha de CSS da DIO
 ## Objetivo
