@@ -1,7 +1,6 @@
 # Desafio 01: Criando sua Primeira Landing Page com HTML e CSS
 
-Este repositório contém o resultado do **Desafio 01** da Trilha de CSS da DIO, onde criei minha primeira **Landing Page** utilizando **HTML** e **CSS**.
-
+Este repositório contém o resultado do **Desafio 01** da Trilha de CSS da DIO
 ## Objetivo
 
 O objetivo desse desafio foi aplicar os conceitos de CSS e HTML aprendidos, criando uma página web simples, mas estilizada. A página segue o protótipo fornecido no Figma e usa técnicas como gradientes no texto, estruturação de layout e responsividade.
